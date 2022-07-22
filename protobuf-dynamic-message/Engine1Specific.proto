@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message Engine1Specific {
+    bool enabled = 1;
+    double field1 = 2;
+    double field2 = 3;
+    double field3 = 4;
+}
